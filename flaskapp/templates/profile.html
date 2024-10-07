@@ -1,0 +1,10 @@
+<!doctype html>
+<title>User Profile</title>
+<section>
+	{% if user %}
+	<p>username: {{user[0]}}</p>
+	<p>firstname: {{user[2]}}</p>
+	<p>lastname: {{user[3]}}</p>
+	<p>email: {{user[4]}}</p>
+	{% endif %}
+</section>
